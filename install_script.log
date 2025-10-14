@@ -1,0 +1,151 @@
+[0;34m[*][0m Starting Hyprland dotfiles installation...
+[0;34m[*][0m Log file: /home/sol/soldots/install_script.log
+./install.sh: line 45: USER_HOME: command not found
+[0;34m[*][0m Starting Hyprland dotfiles installation...
+[0;34m[*][0m Log file: /home/sol/soldots/install_script.log
+[0;34m[*][0m Installing for user: sol
+[0;34m[*][0m Updating system packages...
+:: Synchronizing package databases...
+ core downloading...
+ extra downloading...
+ multilib downloading...
+:: Starting full system upgrade...
+ there is nothing to do
+[0;32m[+][0m System updated successfully
+[0;34m[*][0m Installing base packages...
+warning: base-3-2 is up to date -- skipping
+warning: base-devel-1-2 is up to date -- skipping
+warning: git-2.50.0-1 is up to date -- skipping
+warning: hyprland-0.49.0-2 is up to date -- skipping
+warning: hyprlock-0.8.2-2 is up to date -- skipping
+warning: hyprshot-1.3.0-3 is up to date -- skipping
+warning: hyprpicker-0.4.5-3 is up to date -- skipping
+warning: waybar-0.13.0-3 is up to date -- skipping
+warning: wl-clipboard-1:2.2.1-3 is up to date -- skipping
+warning: wtype-0.4-2 is up to date -- skipping
+warning: xdg-desktop-portal-hyprland-1.3.9-10 is up to date -- skipping
+warning: xdg-utils-1.2.1-1 is up to date -- skipping
+warning: ttf-jetbrains-mono-nerd-3.4.0-1 is up to date -- skipping
+warning: ttf-nerd-fonts-symbols-3.4.0-1 is up to date -- skipping
+warning: ttf-nerd-fonts-symbols-mono-3.4.0-1 is up to date -- skipping
+warning: noto-fonts-1:2025.07.01-1 is up to date -- skipping
+warning: noto-fonts-emoji-1:2.048-1 is up to date -- skipping
+warning: zsh-5.9-5 is up to date -- skipping
+warning: wget-1.25.0-2 is up to date -- skipping
+warning: curl-8.14.1-1 is up to date -- skipping
+warning: feh-3.10.3-1 is up to date -- skipping
+warning: rofi-wayland-1.7.9.1-1 is up to date -- skipping
+warning: ffmpeg-2:7.1.1-4 is up to date -- skipping
+warning: jq-1.8.1-1 is up to date -- skipping
+warning: poppler-25.06.0-1 is up to date -- skipping
+warning: fd-10.2.0-1 is up to date -- skipping
+warning: fzf-0.62.0-1 is up to date -- skipping
+warning: zoxide-0.9.8-2 is up to date -- skipping
+warning: imagemagick-7.1.1.47-2 is up to date -- skipping
+warning: less-1:668-1 is up to date -- skipping
+warning: man-db-2.13.1-1 is up to date -- skipping
+warning: man-pages-6.14-1 is up to date -- skipping
+warning: firefox-140.0.2-1 is up to date -- skipping
+warning: kitty-0.42.1-1 is up to date -- skipping
+warning: npm-11.4.2-1 is up to date -- skipping
+warning: ntfs-3g-2022.10.3-2 is up to date -- skipping
+warning: 7zip-24.09-3 is up to date -- skipping
+warning: pavucontrol-1:6.1-1 is up to date -- skipping
+warning: ripgrep-14.1.1-1 is up to date -- skipping
+warning: rsync-3.4.1-2 is up to date -- skipping
+warning: tree-2.2.1-1 is up to date -- skipping
+warning: unzip-6.0-22 is up to date -- skipping
+warning: cronie-1.7.2-1 is up to date -- skipping
+warning: lm_sensors-1:3.6.2-1 is up to date -- skipping
+warning: blueman-2.4.6-1 is up to date -- skipping
+warning: bluez-utils-5.83-1 is up to date -- skipping
+warning: swww-0.10.3-1 is up to date -- skipping
+warning: openvpn-2.6.14-1 is up to date -- skipping
+warning: wireplumber-0.5.10-1 is up to date -- skipping
+warning: lib32-nvidia-utils-575.64.03-1 is up to date -- skipping
+warning: nvidia-utils-575.64.03-1 is up to date -- skipping
+ there is nothing to do
+[0;32m[+][0m Base packages installed successfully
+[0;34m[*][0m Installing AUR packages with [0;34m[*][0m Checking for AUR helper...
+[0;34m[*][0m yay is already installed
+yay...
+sudo: [0;34m[*][0m Checking for AUR helper...
+[0;34m[*][0m yay is already installed
+yay: command not found
+[0;31m[!][0m Failed to install AUR packages
+[0;34m[*][0m Starting Hyprland dotfiles installation...
+[0;34m[*][0m Log file: /home/sol/soldots/install_script.log
+[0;34m[*][0m Installing for user: sol
+[0;34m[*][0m Updating system packages...
+:: Synchronizing package databases...
+ core downloading...
+ extra downloading...
+ multilib downloading...
+:: Starting full system upgrade...
+ there is nothing to do
+[0;32m[+][0m System updated successfully
+[0;34m[*][0m Installing base packages...
+warning: base-3-2 is up to date -- skipping
+warning: base-devel-1-2 is up to date -- skipping
+warning: git-2.50.0-1 is up to date -- skipping
+warning: hyprland-0.49.0-2 is up to date -- skipping
+warning: hyprlock-0.8.2-2 is up to date -- skipping
+warning: hyprshot-1.3.0-3 is up to date -- skipping
+warning: hyprpicker-0.4.5-3 is up to date -- skipping
+warning: waybar-0.13.0-3 is up to date -- skipping
+warning: wl-clipboard-1:2.2.1-3 is up to date -- skipping
+warning: wtype-0.4-2 is up to date -- skipping
+warning: xdg-desktop-portal-hyprland-1.3.9-10 is up to date -- skipping
+warning: xdg-utils-1.2.1-1 is up to date -- skipping
+warning: ttf-jetbrains-mono-nerd-3.4.0-1 is up to date -- skipping
+warning: ttf-nerd-fonts-symbols-3.4.0-1 is up to date -- skipping
+warning: ttf-nerd-fonts-symbols-mono-3.4.0-1 is up to date -- skipping
+warning: noto-fonts-1:2025.07.01-1 is up to date -- skipping
+warning: noto-fonts-emoji-1:2.048-1 is up to date -- skipping
+warning: zsh-5.9-5 is up to date -- skipping
+warning: wget-1.25.0-2 is up to date -- skipping
+warning: curl-8.14.1-1 is up to date -- skipping
+warning: feh-3.10.3-1 is up to date -- skipping
+warning: rofi-wayland-1.7.9.1-1 is up to date -- skipping
+warning: ffmpeg-2:7.1.1-4 is up to date -- skipping
+warning: jq-1.8.1-1 is up to date -- skipping
+warning: poppler-25.06.0-1 is up to date -- skipping
+warning: fd-10.2.0-1 is up to date -- skipping
+warning: fzf-0.62.0-1 is up to date -- skipping
+warning: zoxide-0.9.8-2 is up to date -- skipping
+warning: imagemagick-7.1.1.47-2 is up to date -- skipping
+warning: less-1:668-1 is up to date -- skipping
+warning: man-db-2.13.1-1 is up to date -- skipping
+warning: man-pages-6.14-1 is up to date -- skipping
+warning: firefox-140.0.2-1 is up to date -- skipping
+warning: kitty-0.42.1-1 is up to date -- skipping
+warning: npm-11.4.2-1 is up to date -- skipping
+warning: ntfs-3g-2022.10.3-2 is up to date -- skipping
+warning: 7zip-24.09-3 is up to date -- skipping
+warning: pavucontrol-1:6.1-1 is up to date -- skipping
+warning: ripgrep-14.1.1-1 is up to date -- skipping
+warning: rsync-3.4.1-2 is up to date -- skipping
+warning: tree-2.2.1-1 is up to date -- skipping
+warning: unzip-6.0-22 is up to date -- skipping
+warning: cronie-1.7.2-1 is up to date -- skipping
+warning: lm_sensors-1:3.6.2-1 is up to date -- skipping
+warning: blueman-2.4.6-1 is up to date -- skipping
+warning: bluez-utils-5.83-1 is up to date -- skipping
+warning: swww-0.10.3-1 is up to date -- skipping
+warning: openvpn-2.6.14-1 is up to date -- skipping
+warning: wireplumber-0.5.10-1 is up to date -- skipping
+warning: lib32-nvidia-utils-575.64.03-1 is up to date -- skipping
+warning: nvidia-utils-575.64.03-1 is up to date -- skipping
+ there is nothing to do
+[0;32m[+][0m Base packages installed successfully
+[0;34m[*][0m Installing AUR packages with [0;34m[*][0m Checking for AUR helper...
+[0;34m[*][0m yay is already installed
+yay...
+ -> qdirstat-1.9-2 is up to date -- skipping
+ -> nvibrant-bin-1.0.6-1 is up to date -- skipping
+ there is nothing to do
+[0;32m[+][0m AUR packages installed successfully
+[0;34m[*][0m Creating backup of existing configurations...
+[0;34m[*][0m Backed up existing hypr configuration
+[0;34m[*][0m Backed up existing waybar configuration
+cp: cannot overwrite directory '/root/.config/config.bak/kitty' with non-directory '/home/sol/.config/kitty'

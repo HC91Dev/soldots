@@ -8,12 +8,10 @@ BLUE='\033[0;34m'
 YELLOW='\033[1;33m'
 NC='\033[0m'
 
-SCRIPT_DIR
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
-LOG_FILE
 LOG_FILE="$SCRIPT_DIR/install_script.log"
-BACKUP_DIR
 BACKUP_DIR="$HOME/.config/config.bak"
+
 
 exec > >(tee -a "$LOG_FILE") 2>&1
 
@@ -44,8 +42,8 @@ check_privileges() {
 		exit 1
 	fi
 
-	USER_HOME
 	USER_HOME=$(eval echo ~"$SUDO_USER")
+
 	print_msg "Installing for user: $SUDO_USER"
 }
 
@@ -147,7 +145,7 @@ install_aur_packages() {
 		nvibrant-bin
 	)
 
-	if ! sudo -u "$SUDO_USER" "$aur_helper" -S --needed --noconfirm "${aur_packages[@]}"; then
+	if ! sudo -u "$SUDO_USER" /usr/bin/yay -S --needed --noconfirm "${aur_packages[@]}"; then
 		print_error "Failed to install AUR packages"
 		exit 1
 	fi

@@ -2,6 +2,9 @@ configuration {
     show-icons:                 false;
 }
 
+* {
+    font: "JetBrainsMono Nerd Font, Symbols Nerd Font Mono 12";
+}
 /*****----- Global Properties -----*****/
 @import                          "../colors.rasi"
 
