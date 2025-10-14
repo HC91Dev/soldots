@@ -56,8 +56,22 @@ update_system() {
 	print_success "System updated successfully"
 }
 
+detect_gpu() {
+	if lspci | grep -iE "vga|3d|display" | grep -iq "nvidia"; then
+		echo "nvidia"
+	elif lspci | grep -iE "vga|3d|display" | grep -iq "amd"; then
+		echo "amd"
+	else
+		echo "unknown"
+	fi
+}
+
 install_packages() {
 	print_msg "Installing base packages..."
+
+	local gpu_type
+	gpu_type=$(detect_gpu)
+	print_msg "Detected GPU: $gpu_type"
 
 	local packages=(
 		base base-devel git
@@ -80,8 +94,14 @@ install_packages() {
 
 		# System utilities
 		npm ntfs-3g p7zip pavucontrol ripgrep rsync tree unzip
-		cronie lm_sensors blueman bluez-utils swww openvpn wireplumber lib32-nvidia-utils nvidia-utils
+		cronie lm_sensors blueman bluez-utils swww openvpn wireplumber
 	)
+
+	if [ "$gpu_type" = "nvidia" ]; then
+		packages+=(lib32-nvidia-utils nvidia-utils)
+	elif [ "$gpu_type" = "amd" ]; then
+		packages+=(mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon xf86-video-amdgpu)
+	fi
 
 	if ! pacman -S --needed --noconfirm "${packages[@]}"; then
 		print_error "Failed to install packages"
