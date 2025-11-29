@@ -52,7 +52,7 @@ install_packages() {
 		# Hyprland ecosystem
 		hyprland hyprlock hyprshot hyprpicker
 		waybar wl-clipboard wtype
-		xdg-desktop-portal-hyprland-git xdg-desktop-portal-gtk xdg-utils
+		xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-utils
 
 		# Fonts
 		ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols
