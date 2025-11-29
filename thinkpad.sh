@@ -69,8 +69,8 @@ install_packages() {
 		npm ntfs-3g p7zip pavucontrol ripgrep rsync tree unzip
 		cronie lm_sensors blueman bluez-utils swww openvpn wireplumber
 
-		# ThinkPad AMD essentials
-		thinkpad-acpi acpi_call tlp smartmontools fwupd
+		# ThinkPad AMD essentials (correct list)
+		acpi_call tlp smartmontools fwupd
 		wpa_supplicant sof-firmware
 	)
 
